@@ -1,0 +1,10 @@
+[package]
+name = "rust-extension"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+rust_mruby =  { package = "rust-mruby", git = "https://github.com/buty4649/rust-mruby/" }
